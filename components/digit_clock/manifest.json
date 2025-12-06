@@ -1,0 +1,8 @@
+{
+  "domain": "digit_clock",
+  "name": "Digit Clock Component",
+  "version": "1.0.0",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": []
+}
