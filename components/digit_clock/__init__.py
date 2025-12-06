@@ -7,6 +7,5 @@ DigitClock = digit_clock_ns.class_("DigitClock", cg.Component)
 CONFIG_SCHEMA = cv.Schema({})
 
 async def to_code(config):
-    var = cg.new_Pvariable("digitclock", DigitClock())
-    await cg.register_component(var, config)
+    pass
 
