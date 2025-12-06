@@ -6,12 +6,11 @@
 namespace esphome {
 namespace digit_clock {
 
-using light::AddressableLightState;
-using light::AddressableLight;
+using light::AddressableLightWrapper;
 
 class DigitClock : public Component {
  public:
-  explicit DigitClock(AddressableLightState *strip) : strip_(strip) {}
+  explicit DigitClock(AddressableLightWrapper *strip) : strip_(strip) {}
 
   void setup() override {}
   void loop() override {}
@@ -21,7 +20,7 @@ class DigitClock : public Component {
 
  protected:
   void draw_digits(int d1, int d2, int d3, int d4);
-  AddressableLightState *strip_;
+  AddressableLightWrapper *strip_;
 };
 
 }  // namespace digit_clock
