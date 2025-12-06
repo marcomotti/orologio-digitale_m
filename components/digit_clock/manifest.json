@@ -2,7 +2,9 @@
   "domain": "digit_clock",
   "name": "Digit Clock Component",
   "version": "1.0.0",
-  "requirements": [],
-  "dependencies": [],
-  "codeowners": []
+  "files": [
+    "digit_clock.h",
+    "digit_clock.cpp",
+    "__init__.py"
+  ]
 }
